@@ -96,7 +96,7 @@ def Twitter(search_string):
 	tweet_list = []
 
 	
-	with open("C:/Python27/twitter/sample.json") as f:
+	with open("sample.json") as f:
 		tweets = json.load(f)	
 
 	for tweet in tweets['statuses']:
